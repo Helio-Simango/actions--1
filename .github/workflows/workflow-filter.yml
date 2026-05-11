@@ -4,7 +4,7 @@ on:
     workflow_dispatch:
 #     sechedule:   
 #       - cron:  '*/59 * * * *'
-    push
+    push:
       brances:
         - main
         - '!feature/*' #ignore pushing to any branch starting with feature using !
